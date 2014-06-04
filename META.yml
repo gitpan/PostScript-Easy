@@ -1,0 +1,46 @@
+---
+abstract: 'Produce PostScript files from Perl'
+author:
+  - 'Satoshi Azuma L<ytnobody at gmail dot com>'
+build_requires:
+  ExtUtils::MakeMaker: 0
+  Test::More: 0
+  Test::Simple: 0
+configure_requires:
+  CPAN::Meta: 0
+  CPAN::Meta::Prereqs: 0
+  Module::Build: 0.38
+dynamic_config: 0
+generated_by: 'Minilla/v1.0.0, CPAN::Meta::Converter version 2.132140'
+license: unknown
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: PostScript-Easy
+no_index:
+  directory:
+    - t
+    - xt
+    - inc
+    - share
+    - eg
+    - examples
+    - author
+    - builder
+provides:
+  PostScript::Easy:
+    file: lib/PostScript/Easy.pm
+    version: 0.01
+  PostScript::Easy::EPS:
+    file: lib/PostScript/Easy/EPS.pm
+    version: 0.01
+requires:
+  Carp: 0
+  Exporter: 0
+resources:
+  bugtracker: https://github.com/ytnobody/PostScript-Easy/issues
+  homepage: https://github.com/ytnobody/PostScript-Easy
+  repository: git://github.com/ytnobody/PostScript-Easy.git
+version: 0.01
+x_contributors:
+  - 'ytnobody <ytnobody@gmail.com>'
